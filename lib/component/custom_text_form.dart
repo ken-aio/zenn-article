@@ -39,7 +39,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
   }
 
   /// エラーによって色をだし分ける
-  Color _getColor() {
+  Color _bindColor() {
     if (_errorText == null) {
       return AppColors.mainColor;
     } else {
@@ -53,7 +53,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
       children: <Widget>[
         TextFormField(
           decoration: InputDecoration(
-            label: Text(widget.label, style: TextStyle(color: _getColor())),
+            label: Text(widget.label, style: TextStyle(color: _bindColor())),
           ),
           onChanged: (String value) {
             _validate(value);
