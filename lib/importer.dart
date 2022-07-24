@@ -1,3 +1,10 @@
 export 'app.dart';
+export 'component/custom_text_form.dart';
 export 'constant/colors.dart';
+export 'constant/strings.dart';
+export 'validator/age_validator.dart';
+export 'validator/max_length_validator.dart';
+export 'validator/required_validator.dart';
+export 'validator/validator.dart';
 export 'view/home_page.dart';
+export 'view/next_page.dart';

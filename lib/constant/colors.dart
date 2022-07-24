@@ -4,6 +4,7 @@ class AppColors {
   static const accentColor = Color(0xFF3E7FFF);
   static const baseColor = Color(0xFFFFFFFF);
   static const mainColor = Color(0xFF103E68);
+  static const error = Color(0xFFFF0000);
 }
 
 class AppMaterialColor {
